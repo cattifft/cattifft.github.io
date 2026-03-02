@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="personal, art, portfolio">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- <link rel="stylesheet" href="milligram.css" type="text/css"> -->
+    <link rel="stylesheet" href="custom.css" type="text/css">
+    <script src="gallery.js" defer></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <main class="container"> <!-- MAIN -->
+
+        <div>
+            <img src="images/profile_picture.jpg" class="me" alt="my picture">
+        </div>
+
+        <div>
+            <h1>Catherine Tifft</h1>
+        </div>
+
+        <div class="about">
+            <p>
+                I am University of Denver Class of 2026 graduate with a BS in Computer Science and minors in
+                Mathematics and Emergent Digital Practices. I am currently employed as a University of Denver
+                LEP tutor specializing in calculus and programming. I am interested in designing creative 
+                technology that is people-first. I have a broad range of technical interests from UI/UX to cybersecurity and AI. 
+                This website was created by me to practice design and to host my digital and physical art pieces. 
+            </p>
+        </div>
+
+        <div class="nav">
+           <a href="https://github.com/cattifft"><button>GitHub</button></a>
+           <a href="Resume.pdf" target="_blank"><button>Resume</button></a>
+           <a href="https://www.linkedin.com/in/catherine-tifft-4442b3275/"><button>LinkedIn</button></a>
+           <a href="contact.html"><button>Contact</button></a>
+        </div>
+
+        <div>
+            <h1>My Art:</h1>
+        </div>
+
+        <!-- Start Gallery -->
+        <div class="gallery">
+            <div class="mySlides fade">
+                <div class="number">1/10</div>
+                <img src="art/tifftCatherine_project2_colorTheory.jpg" style="width:100%">
+                <div class="cap">Campfire</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">2/10</div>
+                <img src="art/tifftCatherine_project3_image.png" style="width:100%">
+                <div class="cap">Auriea Harvey text portrait</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">3/10</div>
+                <img src="art/tifftCatherine_imagePlay_fabHorse.png" style="width:100%">
+                <div class="cap2" id="horse">Fab Horse</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">4/10</div>
+                <img src="art/tifftCatherine_imagePlay_bugEyes.png" style="width:100%">
+                <div class="cap2">Bug Eyes</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">5/10</div>
+                <img src="art/tifftCatherine_imagePlay_crawfish.png" style="width:100%">
+                <div class="cap2">Crawfish Boil</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">6/10</div>
+                <img src="art/blue_house.png" style="width:100%">
+                <div class="cap">Greece Apartment View 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">7/10</div>
+                <img src="art/yellow_house.png" style="width:100%">
+                <div class="cap">Greece Apartment View 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">8/10</div>
+                <img src="art/pink_house.png" style="width:100%">
+                <div class="cap">Greece Apartment View 3</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">9/10</div>
+                <img src="art/purse_painting.png" style="width:100%">
+                <div class="cap">Analogous Color Study</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="number">10/10</div>
+                <img src="art/bikini_painting.png" style="width:100%">
+                <div class="cap">Complimentary Color Study</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+        </div>
+
+    </main>
+
+</body>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- <link rel="stylesheet" href="milligram.css" type="text/css"> -->
+    <link rel="stylesheet" href="custom.css" type="text/css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+        <main class="container">
+
+            <div class="nav" id="contact-nav">
+                <a href="index.html"><button>Back</button></a>
+                <!-- <a href="https://github.com/cattifft"><button>Projects</button></a>
+                <a href="Resume.pdf" target="_blank"><button>Resume</button></a> -->
+            </div>
+
+            <!-- Contact Form -->
+            <form action="mailto:ctifft1928@gmail.com" method="get">
+                <table class="contact-form">
+                    <!-- Name Field -->
+                    <tr>
+                        <td><label for="name">Your Name:</label></td>
+                        <td><input type="text" id="name" name="name" size="30" required></td>
+                    </tr>
+                    <!-- Email Field -->
+                    <tr>
+                        <td><label for="email">Your Email:</label></td>
+                        <td><input type="email" id="email" name="email" size="30" required></td>
+                    </tr>
+                    <!-- Subject Field -->
+                    <tr>
+                        <td><label for="subject">Subject:</label></td>
+                        <td><input type="text" id="subject" name="subject" size="30" required></td>
+                    </tr>
+                    <!-- Message Field -->
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="body" rows="5" cols="30" required></textarea></td>
+                    </tr>
+                    <!-- Submit Button -->
+                    <tr>
+                        <td colspan="2">
+                            <input class="send" aria-label="Submit Contact Form" type="submit" value="Send Message">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        
+        </main>
+
+</body>
+</html>
